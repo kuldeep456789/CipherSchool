@@ -1,0 +1,8 @@
+Boggle is a word game where players race against the clock to find as many words as they can from a grid of lettered dice. 
+
+The game is played with 16 six-sided letter cubes that are placed in a plastic grid with a lid. 
+Players shake the grid to mix up the letters, then lift the lid and flip a timer to start.
+ Players have a set amount of time, usually three minutes, to find words by joining letters horizontally, vertically, or diagonally. 
+ Letters can't be used more than once in a word, and words must be at least three letters long. Players earn points based on the length of the words they find, and the player with the most points wins. If two or more players find the same word, it doesn't count. 
+Boggle was invented by Allan Turoff and has been published by many different game companies in many languages. 
+You can also play Boggle on your phone with the Boggle With Friends app, which allows you to compete against live players or play solo. 
