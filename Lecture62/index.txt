@@ -1,0 +1,29 @@
+The continue statement in Java is used to skip the remaining code within the current iteration of a loop (for, while, or do-while) and move on to the next iteration. 
+Here's how it works:
+Encountering the continue statement: When the continue statement is encountered inside a loop, the remaining statements within the loop body for the current iteration are skipped.
+Control flow: The control flow jumps to the end of the loop body. 
+Next Iteration: The loop's condition is re-evaluated. If the condition is still true, the next iteration of the loop begins. If the condition is false, the loop terminates.
+Example:
+Java
+
+for (int i = 1; i <= 5; i++) {
+    if (i == 3) {
+        continue; // Skip iteration when i is 3
+    }
+    System.out.println("Value of i: " + i);
+}
+Output:
+Code
+
+Value of i: 1
+Value of i: 2
+Value of i: 4
+Value of i: 5
+In this example, when i equals 3, the continue statement is executed, causing the println statement to be skipped for that iteration. The loop then continues with the next iteration.
+Common Use Cases:
+Filtering Data:
+The continue statement is useful when you want to filter data within a loop. If a certain condition is met, you can use continue to skip the processing of that particular item and move on to the next one.
+Improving Performance:
+In some cases, using continue can improve the performance of your code. By skipping unnecessary computations within a loop, you can reduce the overall execution time.
+Simplifying Control Flow:
+In certain situations, using continue can help simplify the control flow of your loop, making it easier to read and understand.
