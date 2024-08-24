@@ -1,0 +1,13 @@
+//Explanation
+Graph Class: Uses a Map to store the adjacency list.
+addVertex Method: Adds a vertex to the graph.
+addEdge Method: Adds an edge between two vertices.
+getAdjVertices Method: Returns the list of adjacent vertices for a given vertex.
+printGraph Method: Prints the graph’s adjacency list.
+Operations on Graphs
+Traversal:
+Depth-First Search (DFS): Explores as far as possible along each branch before backtracking.
+Breadth-First Search (BFS): Explores all neighbors at the present depth before moving on to nodes at the next depth level.
+Shortest Path Algorithms:
+Dijkstra’s Algorithm: Finds the shortest path from a source vertex to all other vertices in a weighted graph.
+Bellman-Ford Algorithm: Finds the shortest path from a source vertex to all other vertices, handling negative weights.
